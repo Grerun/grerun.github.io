@@ -1,0 +1,42 @@
+.main-container {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    padding: 20px;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .btn {
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 150px;
+    height: 44px;
+    margin: 10px 0 0 5px;
+    padding: 0 20px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #486283;
+    color: white;
+  }
+  
+  .jpg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 750px;
+    height: 680px;
+    background: url(../image/1.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 63px 0 0 0;
+  }
