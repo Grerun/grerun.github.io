@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Torres International Trade</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">   
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">   
+    <meta name="format-detection" content="telephone=no">
+   
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      a {
+        text-decoration: none;
+        text-align: center;
+      }
+      .but{
+        display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* If you want the buttons to wrap on small screens */
+        }
+        .but button {
+          flex: 1;
+            margin: 5px;
+            max-width: 24%; /* Small adjustment to ensure fitting */
+            padding: 8px; /* Increase padding for better spacing */
+            box-sizing: border-box; /* Include padding in the element's total width and height */
+      }
+      .but button a {
+        text-decoration: none;
+            display: block;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+      }
+         .nav-container {
+        display: flex;
+        justify-content: center;
+        background-color: #f0f0f0;
+      }
+      .nav-container nav {
+        display: flex;
+        justify-content: center;
+      }
+      .nav-container nav a {
+        margin: 0 10px;
+        background-color: transparent; /* 修改按钮背景颜色为透明 */
+      }
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    /* .w3-sidebar {width: 120px;background: #222;} */
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 1200px) {
+    
+  #main {
+    margin-left:20px;
+  }
+}
+  </style>
+  </head>
+
+<body class="w3-white">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<div class="nav-container">
+    <nav class="w3-bar w3-small">
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+      </a>
+      <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+      </a>
+      <a href="#business" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-eye w3-xxlarge"></i>
+        <p>BUSINESS</p>
+      </a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+      </a>
+    </nav>
+  </div>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#business" class="w3-bar-item w3-button" style="width:25% !important">BUSINESS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+
+  <!-- <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">We are</span> Torres International Trade</h1>
+    <p>A company specializing in international trade.</p>
+    <img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+  </header> -->
+
+  <header class="w3-container w3-padding-16 w3-center w3-white" id="home">
+    <img src="image/logo.jpg" alt="logo"  width="75%" height="auto" position:"center">
+    <p>We provide comprehensive, convenient, and professional cross-regional trade services.</p>
+    <img src="image/1.png" alt="logo" class="w3-image" width="992" height="1108">
+  </header>
+
+    <div class="but">
+      <button class="w3-button w3-light-grey">
+          <a href="index-mob-en.html">English</a>
+      </button>
+      <button class="w3-button w3-light-grey">
+          <a href="index-mob-es.html">Español</a>
+      </button>
+      <button class="w3-button w3-light-grey">
+          <a href="index-mob-ch.html">中文</a>
+      </button>
+      <button class="w3-button w3-light-grey">
+          <a href="index-mob-ar.html">عربي</a>
+      </button>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-16" id="about">
+    <h2 class="w3-text-light-black">Who am I</h2>
+    <hr style="width:200px;border-color:black;"  class="w3-opacity">
+    <p>
+    
+      <h3 class="w3-padding-16 w3-text-light-black">Team Strengths</h3>
+    <p class="w3-wide">Diverse Expertise</p>
+    <div class="w3-white">
+      <p>The team at Torres International Trade boasts diverse expertise in various fields of trade, including logistics, customs regulations, international marketing, and finance. This breadth of knowledge allows the company to handle complex trade operations efficiently.</p>
+    </div>
+    <p class="w3-wide">Multilingual Proficiency</p>
+    <div class="w3-white">
+     <p>Team members are proficient in multiple languages, facilitating smooth communication with clients and partners worldwide. This proficiency helps in understanding and catering to the unique needs of different markets.</p>
+    </div>
+    <p class="w3-wide">Cultural Awareness</p>
+    <div class="w3-white">
+      <p>With team members from various cultural backgrounds, the company has an in-depth understanding of cultural nuances, which is crucial for successful international trade negotiations and relationships.</p>
+    </div>
+    <p class="w3-wide">Technological Savvy</p>
+    <div class="w3-white">
+     <p>The team is adept at using the latest technology and software for trade operations, ensuring real-time tracking, efficient inventory management, and seamless documentation processes.</p>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">30+</span><br>
+        Clerk
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5+</span><br>
+       History
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Sales region and country
+      </div>
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="business">
+    <h3 class="w3-padding-16 w3-text-light-black">All-Round Trade Advantages</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Comprehensive Service Portfolio</li>
+          <li class="w3-padding-25">Offering a wide range of services under one roof, from sourcing and procurement to logistics and distribution, provides clients with a one-stop solution for all their trade needs.</li>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Flexibility and Adaptability</li>
+          <li class="w3-padding-25">The ability to operate in various fields of trade means the company can quickly adapt to market changes and client demands, providing tailored solutions that meet specific requirements.</li>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Economies of Scale</li>
+          <li class="w3-padding-25">Handling diverse trade operations allows the company to achieve economies of scale, reducing costs and offering competitive pricing to clients.</li>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Global Network</li>
+          <li class="w3-padding-25"> With a well-established global network of suppliers, distributors, and logistics partners, the company can ensure reliable and timely delivery of goods anywhere in the world.</li>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Risk Mitigation</li>
+          <li class="w3-padding-25">By diversifying into multiple fields, the company spreads its risks across different markets and sectors, ensuring stability and resilience against market volatility.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-16 w3-content w3-text-black" id="contact">
+    <h2 class="w3-text-light-black">Contact Us</h2>
+    <hr style="width:200px;border-color:black;" class="w3-opacity"><br>
+  <!-- End Contact Section -->
+       <!-- Testimonials -->
+       <img src="./image/wechat.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:50px">
+       <p><span class="w3-large w3-margin-right">Wechat:</span>batorre</p><br>
+       <img src="./image/whatsapp.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:50px">
+       <p><span class="w3-large w3-margin-right">WhatsApp:</span> 3106670766</p><br>
+       <p>Some introduction</p>
+       <p>If you are interested in our business or would like to discuss further, you can contact me through this Request Form. </p>
+       <button class="w3-button w3-light-grey w3-padding-large w3-section">
+         <i class="fa fa-download"> </i> <a href="https://0br3plet.forms.app/international-trade-product-request-form">Click to Get</a></p>
+       </button>
+  </div>
+  
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+ <p class="w3-small"></p>
+
+ <!-- End footer -->
+</footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
